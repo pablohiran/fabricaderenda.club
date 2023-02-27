@@ -1,6 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+
+ </style>
+<div class="html-aunwbD4946426-element ">
+<div>
+<script>
+    let prefix = ["https://braip.com.br"];
+
+function getParams() {
+    let t = "",
+        e = window.top.location.href,
+        r = new URL(e);
+    if (null != r) {
+        let a = r.searchParams.get("utm_source"),
+            n = r.searchParams.get("utm_medium"),
+            o = r.searchParams.get("utm_campaign"),
+            m = r.searchParams.get("utm_term"),
+            c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
+    }
+    return t
+}! function() {
+    var t = new URLSearchParams(window.location.search);
+    t.toString() && document.querySelectorAll("a").forEach(function(e) {
+        for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
+    })
+}();</script>
+
+<!-- Meta Pixel Code -->
+
+<script>
+ !function(f,b,e,v,n,t,s)
+ {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+ n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+ if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+ n.queue=[];t=b.createElement(e);t.async=!0;
+ t.src=v;s=b.getElementsByTagName(e)[0];
+ s.parentNode.insertBefore(t,s)}(window, document,'script',
+ 'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '1638159393289406');
+ fbq('init', '1469706286893569');
+ fbq('init', '723282242679360');
+ fbq('init', '697184758806020');
+ fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+ src="https://www.facebook.com/tr?id=1638159393289406&ev=PageView&noscript=1"
+/></noscript>
+
+<!-- End Meta Pixel Code -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -27,22 +76,22 @@
       }
     </style>
 
-<script type="text/javascript">
-    var back_redirect_back_link = '/redirect'+ location.search;
-    // Não altere daqui para baixo
+<script>
+    var urlBackRedirect = 'https://fabricaderenda.club/redirect';
+    urlBackRedirect = urlBackRedirect = urlBackRedirect.trim() +
+            (urlBackRedirect.indexOf("?") > 0 ? '&' : '?') +
+            document.location.search.replace('?', '').toString();
     history.pushState({}, "", location.href);
     history.pushState({}, "", location.href);
-
-    window.addEventListener('popstate', function (event) {
-        if (event.state) {
-            setTimeout(function () {
-                location.href = back_redirect_back_link;
-            }, 1);
-        }
-    }, false);
+    window.onpopstate = function () {
+        setTimeout(function () {
+            location.href = urlBackRedirect;
+        }, 1);
+    };
 </script>
 
   </head>
+
   <body>
     
     <header class="py-4">
@@ -60,7 +109,7 @@
 
             <!-- Botão -->
             <div id="cta1" class="mt-4 d-none">
-              <a href="https://pay.kiwify.com.br/sAT9cx4" class="a-btn" style="text-decoration: none;">
+              <a href="https://ev.braip.com/campanhas/cpa/cam564rke" class="a-btn" style="text-decoration: none;">
                 <span class="span-btn">QUERO OBTER ACESSO!</span>
                 <span class="span-btn2">(atenção: vagas limitadas)</span>
               </a>
